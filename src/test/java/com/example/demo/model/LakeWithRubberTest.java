@@ -23,6 +23,8 @@ public class LakeWithRubberTest {
     public void noise() throws Exception {
 
         Assert.assertEquals("squeak", lake.noise());
+
+        Assert.assertEquals("otherDep", lake.whoIsOtherDep());
     }
 
 }

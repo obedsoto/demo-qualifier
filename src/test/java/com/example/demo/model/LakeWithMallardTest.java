@@ -23,6 +23,8 @@ public class LakeWithMallardTest {
     public void noise() throws Exception {
 
         Assert.assertEquals("quack", lake.noise());
+
+        Assert.assertEquals("otherDep", lake.whoIsOtherDep());
     }
 
 }
